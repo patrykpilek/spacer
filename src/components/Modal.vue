@@ -112,6 +112,13 @@ export default {
 
       img {
         width: 100%;
+
+        @media (min-width: 1024px) {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
       }
     }
 
